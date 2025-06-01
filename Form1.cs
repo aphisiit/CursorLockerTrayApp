@@ -33,10 +33,10 @@ public partial class Form1 : Form
         };
 
         // Hide main form
-        this.WindowState = FormWindowState.Minimized;
-        this.ShowInTaskbar = false;
-        this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
-        this.Load += (s, e) => this.Hide();
+        WindowState = FormWindowState.Minimized;
+        ShowInTaskbar = false;
+        FormBorderStyle = FormBorderStyle.FixedToolWindow;
+        Load += (s, e) => this.Hide();
     }
 
     private void ToggleLock(object? sender, EventArgs e)
