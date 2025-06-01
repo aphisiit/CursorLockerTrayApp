@@ -1,0 +1,32 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio settings
+.vscode/
+.vs/
+
+# Dotnet CLI tool settings
+*.cache
+*.log
+*.pdb
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# MSBuild logs
+msbuild.log
+
+# Publish output
