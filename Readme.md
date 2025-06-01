@@ -10,7 +10,7 @@ dotnet run
 
 Publish to EXE:
 ```sh
-dotnet publish -c Release -r win-x64 --self-contained true
+dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=false
 ```
 
 Publish into single file:
